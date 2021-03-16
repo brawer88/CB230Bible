@@ -1,0 +1,72 @@
+/*
+Name: Brandon Wernke
+Class:  Web App Development 1 117-400
+Abstract: Global CSS file
+Date: 10/02/2020
+*/
+
+body {
+  font-family : geneva, arial, helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #EBEBEB;
+  padding: .5px;
+}
+
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+
+.mobile-container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #EBEBEB;
+  height: 100%;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #829CD0;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #829CD0;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #829CD0;
+  color: blue;
+}
+
+.active {
+  background-color: #829CD0;
+  color: white;
+}
+
+@media all and (display-mode: standalone) {
+  body {
+    background-color: EBEBEB;
+  }
+}

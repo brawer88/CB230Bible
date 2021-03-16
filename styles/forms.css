@@ -1,0 +1,109 @@
+/*
+Name: Brandon Wernke
+Class:  Web App Development 1 117-400
+Abstract: Forms CSS file
+Date: 10/02/2020
+*/
+
+
+td {
+  padding: 2px;
+}
+
+.form-style-div{
+	max-width: 500px;
+	padding: 10px 10px;
+	background: white;
+	margin: 10px auto;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input[type=text], 
+input[type=tel], 
+input[type=date], 
+input[type=email], 
+input[type=number],
+textarea,
+table,
+select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: white;
+	color:black;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus{
+	background: #d2d9dd;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.custom-select {
+  background-color: #696969;
+}
+
+select {
+  width: 100%;
+  -webkit-appearance: menulist-button;
+	height:35px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.table_links
+{
+	position: relative;
+	display: flex;
+  justify-content: center;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.table_links
+{
+	background: #109177;
+}
+
+@media screen and (max-width: 600px) {
+  table{
+   width: 100%;
+  }
+}
+

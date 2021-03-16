@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us"> 
+
+<head>
+    <title>Brandon Wernke's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+    <link href="../../styles/forms.css" rel="stylesheet" type="text/css">
+    <link href="../../styles/global.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ 
+  <hr>
+  <div id="topnav" class="topnav">
+    <a href="BrakeBible/index.php" class="active" >Brake Bible</a>
+    <a href="donate.php">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("topnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </div> 
+  <hr>
+  <h3 style="text-align: center">Welcome!</h3>
+  <input style="display: flex; justify-content: center;" class="form-style-div" type="button" value="Brake Bible" onclick="window.location.href='./BrakeBible/index.php'">
+
+</body>
+
+
+</html>
